@@ -59,8 +59,9 @@ Solar Panel → Charge Controller → Microcontroller →
 → Buzzer Alert System  
 → IoT Monitoring Module
 
-(Add block diagram image here)
+![Block Diagram](block_diagram.png)
 
+---
 
 ## 📸 Project Images
 
@@ -107,22 +108,27 @@ As a team leader, my contributions included:
 
 ---
 
-## 💻 Code Implementation
+---
 
-This project includes Arduino-based embedded logic for:
+## 💻 Arduino Code Implementation
 
-- Solar tracking control  
-- Ultrasonic sensor obstacle detection  
-- Buzzer alert mechanism  
+The system control logic was implemented using Arduino programming to automate solar tracking and obstacle detection.
 
-The control system was programmed using Arduino IDE to automate solar panel movement and detect obstacles in real-time.
+### Functional Modules:
 
-### 📂 Code Files
+🌞 Solar Tracking using LDR sensors  
+🚧 Obstacle Detection using Ultrasonic Sensor  
+🔔 Buzzer Alert System  
+📟 LCD Monitoring Display  
 
-- solar_tracking.ino  
-- ultrasonic_detection.ino  
-- buzzer_alert.ino  
+### 📂 Code File:
 
-These programs control the movement of solar panels, monitor surrounding obstacles, and trigger alerts when interference is detected.
+Available inside:
 
-Code files are available inside the **code/** directory of this repository.
+code/TeamSolarixCODE.ino
+
+### Libraries Used:
+
+- Wire.h  
+- LiquidCrystal_I2C.h  
+- Servo.h  
