@@ -3,26 +3,57 @@
   <h3 align="center">With Solar Tracking & Obstacle Detection</h3>
 </p>
 
-# 🌞 Solar Powered Water Purifier with Solar Tracking & Obstacle Detection
+<p align="center">
+
+![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
+![IoT](https://img.shields.io/badge/IoT-Enabled-green)
+![Solar](https://img.shields.io/badge/Energy-Solar-orange)
+![Hardware](https://img.shields.io/badge/Type-Hardware_Project-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Award](https://img.shields.io/badge/Award-1st%20Position%20NSD%202026-gold)
+</p>
 
 ## 🧠 Overview
 
 This project presents an intelligent solar-powered water purification system designed to provide sustainable and automated water purification using renewable energy. The system integrates solar tracking, obstacle detection, and IoT-based monitoring to improve efficiency and reliability.
 
-The project was developed and presented at **National Science Day 2026**, where it secured **1st Position** among competing teams.
+---
+
+## 🏆 Achievements
+
+🏅 **Departmental Winner — INNOTECH'25 (KIET)**  
+
+Team Members (INNOTECH'25):
+- Ayushman Pathak  
+- Abhinav Singh  
+- Mohd Arshan Saifi  
+- Shritij Jaiswal  
+
+🥇 **1st Position — National Science Day 2026**  
+Organized by **Regional Science and Technology Centre (RSTC), Ghaziabad** in collaboration with **KIET Group of Institutions**
+
+Team Members (National Science Day):
+- Ayushman Pathak  
+- Abhinav Singh  
+- Mohd Arshan Saifi  
+- Devansh Srivastava  
+- Mohd Sarfaraz
+
+---
+
+## 📅 Project Evolution
+
+🔹 **Version 1 — INNOTECH'25 (Departmental Level)**  
+The initial version of the Solar Powered Water Purifier was developed and presented at INNOTECH'25, where the project secured **Departmental Winner** recognition. This version focused on implementing solar tracking and basic purification functionality.
+
+🔹 **Version 2 — National Science Day 2026**  
+The improved version of the system was presented at National Science Day 2026, where the project secured **1st Position**. Enhancements included improved calibration, obstacle detection system integration, and system performance optimization.
 
 ---
 
 ## ❓ Problem Statement
 
 Many rural and remote areas lack reliable electricity and access to clean drinking water. This project aims to develop a sustainable solar-powered purification system capable of operating independently using renewable energy.
-
----
-
-## 🏆 Achievement
-
-🥇 **1st Position — National Science Day 2026**  
-Organized by **Regional Science and Technology Centre (RSTC), Ghaziabad** in collaboration with **KIET Group of Institutions**
 
 ---
 
@@ -62,24 +93,17 @@ Organized by **Regional Science and Technology Centre (RSTC), Ghaziabad** in col
 
 ## 🧪 Working Principle
 
-1. Solar panels generate energy.
-2. Solar tracking mechanism adjusts panel direction for maximum sunlight.
-3. The purification unit filters water using integrated filtration stages.
-4. Obstacle detection prevents mechanical interference.
-5. IoT system monitors system performance and enables remote observation.
+The system operates using renewable solar energy to power the purification unit. LDR sensors detect sunlight intensity and guide the servo motor to adjust the solar panel orientation for maximum energy capture.
+
+An ultrasonic sensor continuously monitors surrounding distance to detect obstacles. If an obstacle is detected within a predefined threshold, the system activates a buzzer alert. The LCD module displays real-time monitoring data including sensor readings and distance values.
+
+The purified water is produced using a solar-powered filtration system, making the solution energy-efficient and suitable for remote environments.
 
 ---
 
 ## 🧩 System Architecture (Block Diagram)
 
-Below is the block-level architecture of the Solar Powered Water Purifier System:
-
-Solar Panel → Charge Controller → Microcontroller →  
-→ Solar Tracking Motor System  
-→ Water Purification Unit  
-→ Ultrasonic Sensor (Obstacle Detection)  
-→ Buzzer Alert System  
-→ IoT Monitoring Module
+The following diagram represents the architecture of the Solar Powered Water Purifier system, illustrating how solar energy, sensors, and control modules interact to enable automatic operation.
 
 ![Block Diagram](block_diagram.png)
 
@@ -111,25 +135,32 @@ This demonstrated the system’s reliability and real-time functionality.
 
 ## 📸 Project Images
 
-![Solar Tracking](https://github.com/user-attachments/assets/d9be99c4-08b2-4b3d-8f4a-1ebf5004453e)
-![Water Purifier](https://github.com/user-attachments/assets/31070d90-fd3b-4c10-9b8b-672480a41d01)
-![Solar Powered Water Purifier](https://github.com/user-attachments/assets/1f55c157-8c3d-4764-9dae-1acf99c99609)
-![Innotech&#39;25](https://github.com/user-attachments/assets/357f2403-2967-4722-aa96-3e0fb052d563)
+### 🥇 National Science Day 2026 — 1st Position
+
+![National Science Day 2026 Winner](https://github.com/user-attachments/assets/86299960-a543-4a19-b7c3-ceaefb9fde59)
 
 ---
 
-## 👨‍👩‍👦 Team Members
+### 🏅 INNOTECH'25 — Departmental Winner
 
-- Ayushman Pathak  
-- Abhinav Singh  
-- Mohd Arshan Saifi  
-- Shritij Jaiswal  
+![INNOTECH'25 Departmental Winner](https://github.com/user-attachments/assets/357f2403-2967-4722-aa96-3e0fb052d563)
 
-This project was developed collaboratively as part of a multidisciplinary team, combining skills in electronics, mechanical design, and system integration.
+---
+
+### ⚙ System Development & Setup
+
+![Solar Tracking Mechanism](https://github.com/user-attachments/assets/d9be99c4-08b2-4b3d-8f4a-1ebf5004453e)
+
+![Water Purifier Unit](https://github.com/user-attachments/assets/31070d90-fd3b-4c10-9b8b-672480a41d01)
+
+![Complete Solar Powered Water Purifier Model](https://github.com/user-attachments/assets/1f55c157-8c3d-4764-9dae-1acf99c99609)
+
+---
 
 ## 🌍 Real-World Impact
 
-This project aims to provide an eco-friendly and sustainable water purification solution for rural and remote areas where electricity access is limited.
+This project aims to provide an eco-friendly and sustainable water purification solution for rural and remote areas where electricity access is limited. 
+Such solar-powered purification systems can help improve access to clean drinking water in off-grid locations, disaster-affected regions, and low-resource environments.
 
 ---
 
@@ -151,8 +182,6 @@ As a team leader, my contributions included:
 - Mobile app monitoring  
 - Automated water quality sensing  
 - Enhanced efficiency optimization  
-
----
 
 ---
 
@@ -178,3 +207,9 @@ code/TeamSolarixCODE.ino
 - Wire.h  
 - LiquidCrystal_I2C.h  
 - Servo.h  
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
