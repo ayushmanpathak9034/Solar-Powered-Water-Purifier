@@ -48,6 +48,20 @@ Organized by **Regional Science and Technology Centre (RSTC), Ghaziabad** in col
 
 ---
 
+## 🧩 System Architecture (Block Diagram)
+
+Below is the block-level architecture of the Solar Powered Water Purifier System:
+
+Solar Panel → Charge Controller → Microcontroller →  
+→ Solar Tracking Motor System  
+→ Water Purification Unit  
+→ Ultrasonic Sensor (Obstacle Detection)  
+→ Buzzer Alert System  
+→ IoT Monitoring Module
+
+(Add block diagram image here)
+
+
 ## 📸 Project Images
 
 ![Solar Tracking](https://github.com/user-attachments/assets/d9be99c4-08b2-4b3d-8f4a-1ebf5004453e)
@@ -57,20 +71,31 @@ Organized by **Regional Science and Technology Centre (RSTC), Ghaziabad** in col
 
 ---
 
+## 👨‍👩‍👦 Team Members
+
+- Ayushman Pathak  
+- Abhinav Singh  
+- Mohd Arshan Saifi  
+- Shritij Jaiswal  
+
+This project was developed collaboratively as part of a multidisciplinary team, combining skills in electronics, mechanical design, and system integration.
+
 ## 🌍 Real-World Impact
 
 This project aims to provide an eco-friendly and sustainable water purification solution for rural and remote areas where electricity access is limited.
 
 ---
 
-## 👨‍💻 Team Contribution
+## 👨‍💻 My Role in the Project
 
-This project was developed as a team effort. My role included:
+As a team leader, my contributions included:
 
-- System integration  
-- Testing and troubleshooting  
-- Component setup  
-- Demonstration and presentation  
+- Assisted in assembling and integrating hardware components including solar tracking and purification units  
+- Worked on sensor setup including ultrasonic sensor integration for obstacle detection  
+- Supported implementation of Arduino-based control logic  
+- Performed system testing, debugging, and troubleshooting  
+- Helped calibrate solar tracking movement for optimized sunlight alignment  
+- Actively participated in project demonstration and technical explanation during exhibition
 
 ---
 
@@ -81,3 +106,23 @@ This project was developed as a team effort. My role included:
 - Enhanced efficiency optimization  
 
 ---
+
+## 💻 Code Implementation
+
+This project includes Arduino-based embedded logic for:
+
+- Solar tracking control  
+- Ultrasonic sensor obstacle detection  
+- Buzzer alert mechanism  
+
+The control system was programmed using Arduino IDE to automate solar panel movement and detect obstacles in real-time.
+
+### 📂 Code Files
+
+- solar_tracking.ino  
+- ultrasonic_detection.ino  
+- buzzer_alert.ino  
+
+These programs control the movement of solar panels, monitor surrounding obstacles, and trigger alerts when interference is detected.
+
+Code files are available inside the **code/** directory of this repository.
