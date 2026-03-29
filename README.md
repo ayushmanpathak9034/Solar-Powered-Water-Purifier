@@ -16,6 +16,7 @@
 ## 🧠 Overview
 
 This project presents an intelligent solar-powered water purification system designed to provide sustainable and automated water purification using renewable energy. The system integrates solar tracking, obstacle detection, and IoT-based monitoring to improve efficiency and reliability.
+This project was developed as a real-world hardware prototype and successfully demonstrated in multiple technical competitions.
 
 ---
 
@@ -135,15 +136,15 @@ This demonstrated the system’s reliability and real-time functionality.
 
 ## 📸 Project Images
 
-### 🥇 National Science Day 2026 — 1st Position
-
-![National Science Day 2026 Winner](https://github.com/user-attachments/assets/86299960-a543-4a19-b7c3-ceaefb9fde59)
-
----
-
 ### 🏅 INNOTECH'25 — Departmental Winner
 
 ![INNOTECH'25 Departmental Winner](https://github.com/user-attachments/assets/357f2403-2967-4722-aa96-3e0fb052d563)
+
+---
+
+### 🥇 National Science Day 2026 — 1st Position
+
+![National Science Day 2026 Winner](https://github.com/user-attachments/assets/86299960-a543-4a19-b7c3-ceaefb9fde59)
 
 ---
 
@@ -198,12 +199,13 @@ The system control logic was implemented using Arduino programming to automate s
 
 ### 📂 Code File:
 
-Available inside:
+Available here:
 
-code/TeamSolarixCODE.ino
+[`TeamSolarixCODE.ino`](code/TeamSolarixCODE.ino)
 
 ### Libraries Used:
 
+These libraries were used to enable servo motor control, LCD display communication, and sensor-based automation.
 - Wire.h  
 - LiquidCrystal_I2C.h  
 - Servo.h  
